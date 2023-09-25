@@ -379,3 +379,18 @@ h4 {
 .centered {
     text-align: center;
 }
+
+h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 28%;
+    margin-left: 30%;
+    color: rgb(25, 65, 31, 1);
+}
+
+.center_tableau {
+    display: block;
+    float: center;
+    margin-left: 25%;
+}
