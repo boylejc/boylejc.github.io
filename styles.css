@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(71, 94, 71);
+    
 }
 
 *::before, *::after {
@@ -13,6 +13,7 @@
 
 body {
     margin: 0;
+    background-color: rgb(71, 94, 71);
 }
 
 
@@ -115,16 +116,17 @@ p > a:hover {
     background-color: #FAF9F6;
     padding: 8px;
     margin: 8px;
-    box-shadow: 8px 8px 4px 1px rgba(18, 59, 24, 0.4);
+    box-shadow: 4px 4px 2px 2px rgba(18, 59, 24, 0.4);
     cursor: pointer;
-    border-radius: 8px;
-    
+    border-radius: 8px; 
+    outline-style: solid;
+    outline-color: #e9e9e8;
 }
 
 .content:hover {
     padding: 8px;
     margin: 8px;
-    box-shadow: 12px 10px 4px 1px rgba(18, 59, 24, 0.8);
+    box-shadow: 6px 6px 2px 2px rgba(18, 59, 24, 0.8);
     cursor: pointer;
 }
 
@@ -183,7 +185,32 @@ p > a:hover {
 
 .project_display {
     margin: auto;
-    max-width: 1200px;;
+    max-width: 1200px;
+}
+
+.new_content_block1 {
+    background-color: #FAF9F6;
+}
+
+.new_content_block2{
+    background-color: #e9e9e8;
+}
+
+.new_content_block1 > h2, .new_content_block2 > h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-right: 28%;
+    margin-left: 28%;
+    padding-top: 16px;
+    color: rgb(25, 65, 31, 1);
+    text-align: center;
+}
+
+.interest_display {
+    margin: auto;
+    max-width: 1200px;
+    background-color: #FAF9F6;
 }
 
 .normal_text{
@@ -196,13 +223,56 @@ p > a:hover {
     color: #FAF9F6;
 }
 
+.new_content_block2 > .project_text, .new_content_block2 > .list_text, .new_content_block1 > .project_text, .new_content_block1 > .list_text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 8px;
+    margin-right: 28%;
+    margin-left: 30%;
+    color: rgb(25, 65, 31, 1)
+
+}
+
+.new_content_block2 > h4 , .new_content_block1 > h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    margin-right: 28%;
+    margin-left: 28%;
+    color: rgb(25, 65, 31, 1);
+}
+
+.new_content_block2 > .list_text > a , .new_content_block1 > .list_text > a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline;
+    color:rgb(71, 94, 71);
+}
+
+.new_content_block1 > ul > li > .block > .extra_list_text, .new_content_block1 >.extra_list_text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(25, 65, 31, 1);
+}
+
+.new_content_block2 > .list_text > a:hover, .new_content_block1 > .list_text > a:hover {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline;
+    color:#0888a9;
+}
+
 .project_text{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 20px;
     padding-top: 8px;
-    margin-right: 20%;
-    margin-left: 28%;
+    margin-right: 10%;
+    margin-left: 20%;
     color: #FAF9F6;
 }
 
@@ -214,6 +284,17 @@ p > a:hover {
     margin-right: 20%;
     margin-left: 30%;
     color: #FAF9F6;
+}
+
+.body_text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 8px;
+    margin-right: 20%;
+    margin-left: 28%;
+    color: #FAF9F6;
+    padding-bottom: 24px;
 }
 
 h2 {
@@ -234,12 +315,7 @@ h4 {
     color: #FAF9F6;
 }
 
-hr {
-    margin-right: 33%;
-    margin-left: 33%;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
+
 
 .last_updated {
     color: #FAF9F6;
@@ -258,4 +334,48 @@ hr {
 .a_list:hover {
     cursor: pointer;
     color:#0888a9;
+}
+
+.checked {
+    color:#0888a9;
+}
+
+.block {
+    box-sizing: border-box;
+}
+
+.profile_left > img{
+    width: 20%;
+    margin-left: 28%;
+    border-radius: 32px;
+    float: left;
+    margin-right: 20px;
+    outline-style: solid;
+    outline-color: #e9e9e8;
+}
+
+.about_text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 20%;
+    text-align: left;
+    color: #e9e9e8;
+    padding-bottom: 24px;
+}
+
+
+.new_content_block1 > .about_text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 20%;
+    text-align: left;
+    color: rgb(25, 65, 31, 1);
+    padding-bottom: 24px;
+    
+}
+
+.centered {
+    text-align: center;
 }

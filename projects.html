@@ -7,7 +7,7 @@
         <title>Professional Projects | John Boyle</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" type="image/x-icon" href="/images/BJC.ico">
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -25,12 +25,9 @@
             <a class="cta" href="/contact.html"><button>Contact</button></a>
         </header>
 
-        <h2>
-        Professional Projects
-        </h2>
-
-        <div class="project_display">
-            <div class="row">
+        <div class="new_content_block2" id="mls_section">
+            <div class="project_display">
+                <div class="row">
                     <a href="https://pcrg-research.github.io/" target="_blank">
                     <div class="content"> 
                         <img src="/images/pcrg_lending_study.png" alt="">
@@ -40,145 +37,299 @@
                     </a>
                 </div>
             </div>
-        </div>
+            <h4>
+                Project Description:
+            </h4>
+            <p class="project_text">
+                PCRG has annually compiled a mortgage lending study, examining the mortgage applications and originations for all Home Mortgage Disclosure Act (HMDA) eligible lenders.
+                In addition to the traditional written report that focuses on lending to low- and moderate-income (LMI) borrowers, LMI census tracts, and to minority borrowers - the 
+                online data dashboard includes additional information. This includes American Community Survey (ACS) neighborhood profiles, interactable maps, and more. 
+                <br>
+                <br>
+                We found continuing racial disparities that <b>negatively impact Black borrowers in Allegheny County</b> even when comparing for income status, as for many lenders
+                the mortgage origination rate was higher for low-income white borrowers than it was for middle- and upper-income Black borrowers. This continues to concentrate many of Allegheny
+                County's Black residents into segregated neighborhoods of disadvantage.
+            </p>
+            <br>
+            <h4>
+                Project Skills and Level of Difficulty:
+            </h4>
+            <p>
+                <ul class="list_text">
+                    <li>Data Cleaning:
+                        <div class="block">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        </div>
+                        <i>Cleaning and merging a decade of mortgage data over multiple format types, adding ACS data to provide context at the census tract level.</i>
+                        <br>
+                        <br>
+                    </li>
+                    <li>Observational Analysis:
+                        <div class="block">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        </div>
+                        <i>Used SQL to create datasets and pivot tables that formed all the data visualizations (aggregating loan actions by lender, census tract income, borrower income, borrower race/ethnicity, and more).</i>
+                        <br>
+                        <br>
+                    </li>
+                    <li>Geospatial Analysis: 
+                        <div class="block">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        </div>
+                        <i>Joined shapefiles to FFIEC provided loan-level census tract data and community indicators created through ACS 5-year estimate data.</i>
+                        <br>
+                        <br>
+                    </li>
+                    <li>Data Visualization:
+                        <div class="block">                   
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        </div>
+                        <i>Created entire data dashboard using PowerBI comprised of loan data from 2012 to 2021, broken down by lender, lender type (mortgage firms, banks, and credit unions), neighborhoods and municipalities, race and ethnicity, applicant income level, and other factors.</i>
+                        <br>
+                    </li>
+                </ul>
+            </p>
+            <h4>
+                Project Uses and Outcomes:
+            </h4>
+            <p>
+                <ul class="list_text">
+                    <li>Data compiled for Community Reinvestment Act (CRA) comment letters used data dashboard for results.</li>
+                    <a href="https://www.openbookpittsburgh.com/SearchContracts.aspx?&ctype=71&startDateRange=1990-01-01&endDateRange=2023-09-22&amtMax=802560000&click=1" target="_blank" class="a_list"><li>Data compiled used for research related to Pittsburgh's Responsible Banking Ordinance and Depository Services contract.</li></a>
 
-        <h4>
-            Project Skills:
-        </h4>
-        <p>
-            <ul class="list_text">
-                <li>Data Cleaning: Python and MS Excel</li>
-                <li>SQL: Querying mortgage applications by lender and census tract</li>
-                <li>Exploratory Analysis: Pivot tables to find averages/rates for lenders and tracts</li>
-                <li>Geospatial Analysis: Displaying lending data by census tract</li>
-                <li>Data Visualization: Combined results in separate dashboards for relevant lending results using Microsoft PowerBI</li>
-            </ul>
-        </p>
-        <br>
-        <h4>
-            Project Description:
-        </h4>
-
-        <p class="project_text">
-
-            PCRG has annually compiled a mortgage lending study, examining the mortgage applications and originations for all Home Mortgage Disclosure Act (HMDA) eligible lenders.
-            In addition to the traditional written report that focuses on lending to low- and moderate-income (LMI) borrowers, LMI census tracts, and to minority borrowers - the 
-            online data dashboard includes additional information. This includes American Community Survey (ACS) neighborhood profiles, interactable maps, and more. 
-
-        </p>
-        <br>
-        <h4>
-            Project Uses:
-        </h4>
-
-        <p>
-            <ul class="list_text">
-                <li>Data compiled for Community Reinvestment Act (CRA) comment letters used data dashboard for results.</li>
-                <a href="https://www.openbookpittsburgh.com/SearchContracts.aspx?&ctype=71&startDateRange=1990-01-01&endDateRange=2023-09-22&amtMax=802560000&click=1" target="_blank" class="a_list"><li>Data compiled used for research related to Pittsburgh's Responsible Banking Ordinance and Depository Services contract.</li></a>
-
-            </ul>
-        </p>
-
-        <br>
-        <hr>
-        <br>
-
+                </ul>
+            </p>
+            <br>
+            <br>
         <!--Corporate Housing Project >> STILL NEED TO DO -->
-
-        <div class="project_display">
-            <div class="row">
-                    <a href="https://pcrg-research.github.io/" target="_blank">
-                    <div class="content"> 
-                        <img src="#" alt=""> <!--ADD PHOTO HERE-->
-                        <p class="project_desc">Complete: </p> <!--ADD PROJECT COMPLETION DATE-->
-                        <p class="project_desc">Published: </p>  <!--ADD PROJECT PUBLICATION DATE-->
+        <div class="new_content_block1" id="corp_housing_section">
+            <div class="project_display">
+                <div class="row">
+                        <a href="https://www.pcrg.org/corporate-housing-study" target="_blank">
+                        <div class="content"> 
+                            <img src="/images/pcrg_corp_housing.png" alt=""> <!--ADD PHOTO HERE-->
+                            <p class="project_desc">Complete: April 2023</p> <!--ADD PROJECT COMPLETION DATE-->
+                            <p class="project_desc">Published: August 2023</p>  <!--ADD PROJECT PUBLICATION DATE-->
+                        </div>
+                        </a>
                     </div>
-                    </a>
                 </div>
-            </div>
-        </div>
-        
-        <h4>
-            Project Skills:
-        </h4>
-        <p>
-            <ul class="list_text">
-                <li>SKILL: Skill Description</li> <!--ADD LIST OF SKILLS and DESCRIPTIONS-->
-            </ul>
-        </p>
-        <br>
-        <h4>
-            Project Description:
-        </h4>
-        
-        <p class="project_text">
-        
-        <!--ADD MORE COMPLETE PROJECT DESCRIPTION-->
-        
-        </p>
-        <br>
-        <h4>
-            Project Uses:
-        </h4>
-        
-        <p>
-            <ul class="list_text">
-                <li>PROJECT USE</li> <!--ADD APPLICABLE USES-->
-            </ul>
-        </p>
-        
-        <br>
-        <hr>
-        <br>
+                <h4>
+                    Project Description:
+                </h4>
+                
+            <p class="project_text">
+            
+                Due to rising concerns from residents and neighborhood community groups, PCRG authored a study measuring 
+                the activity of corporate entities (LLCs, Limited Partnerships, and others) in purchasing single-family housing units in Allegheny County from 2010-2021.
+                As the lead author of the study, I tracked every housing transaction during that time period and geocoded the address data to fit census tract boundaries to see which 
+                neighborhoods, boroughs, and municipalities were most effected by corporate housing purchases. 
+    
+                <br>
+                <br>
+    
+                PCRG found that there was strong correlation that corporate entities were purchasing single-family housing units specifically in neighborhoods 
+                with <b>higher concentrations of minority populations</b> and in <b>low- or moderate-income neighborhoods.</b> We did not determine any causal effects,
+                though is does 
+            
+                </p>
+                <br>
+            <h4>
+                Project Skills and Level of Difficulty:
+            </h4>
+            <p>
+                <ul class="list_text">
+                    <li>Data Cleaning:
+                        <div class="block">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        </div>
+                        <i>Cleaned 12 years of real estate transaction data for the entirety of Allegheny County, including fixing addresses and determining corporate status of all unique real estate purchasing entities.</i>
+                        <br>
+                        <br>
 
+                    </li>
+                    <li>Observational Analysis:
+                        <div class="block">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        </div>
+                        <i>Calculated corporate purchasing rate, average purchasing price of all homes sold (for all sales and corporate sales), and other indicators to determine potentially predatory behavior.</i>
+                        <br>
+                        <br>
+                    </li>
+                    <li>Geospatial Analysis: 
+                        <div class="block">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        </div>
+                        <i>Matched coordinates to over 218,000 transactions in Allegheny County using cleaned addresses through the Census Bureau's free geocoder. Then used coordinates provided to determine census tract status to aggregate sales at the neighborhood, borough, or municipality level.</i>
+                        <br>
+                        <br>
+                    </li>
+                    <li>Data Visualization:
+                        <div class="block">                   
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        </div>
+                        <i>Created multiple maps and visualizations to show corporate purchasing trends over time. Also built a webtool using PowerBI showing each corporate purchase by census tract that shows the purchaser, use-code of the property, purchase price, and percentage of purchase price to census tract average price.</i>
+                    </li>
+                </ul>
+            </p>
+            </p>
+            <br>
+            <h4>
+                Project Uses and Outcomes:
+            </h4>
+            
+            <p>
+                <ul class="list_text">
+                    <a href="https://pittsburgh.legistar.com/LegislationDetail.aspx?ID=6327702&GUID=D1A3710E-8FAA-434E-ADA8-E561FEEB9E48&Options=Advanced&Search=&FullText=1" target="_blank" class="a_list">
+                        <li>Councilwoman Deb Gross introduced an ordinance to regulate the solicitation of purchasing real estate by certain entities.</li></a>
+                </ul>
+            </p>
+            
+            <br>
+            <br>
         <!--Black Homweownership Report >> STILL NEED TO DO -->
-
-        <div class="project_display">
-            <div class="row">
-                    <a href="https://pcrg-research.github.io/" target="_blank">
-                    <div class="content"> 
-                        <img src="#" alt=""> <!--ADD PHOTO HERE-->
-                        <p class="project_desc">Complete: </p> <!--ADD PROJECT COMPLETION DATE-->
-                        <p class="project_desc">Published: </p>  <!--ADD PROJECT PUBLICATION DATE-->
+        <div class="new_content_block2" id="homeownership_report_section">
+            <div class="project_display">
+                <div class="row">
+                        <a href="https://www.pcrg.org/black-homeownership-report/" target="_blank">
+                        <div class="content"> 
+                            <img src="/images/pcrg_black_homeownership.png" alt=""> <!--ADD PHOTO HERE-->
+                            <p class="project_desc">Complete: February 2022</p> <!--ADD PROJECT COMPLETION DATE-->
+                            <p class="project_desc">Published: April 2022</p>  <!--ADD PROJECT PUBLICATION DATE-->
+                        </div>
+                        </a>
                     </div>
-                    </a>
                 </div>
-            </div>
-        </div>
-        
-        <h4>
-            Project Skills:
-        </h4>
-        <p>
-            <ul class="list_text">
-                <li>SKILL: Skill Description</li> <!--ADD LIST OF SKILLS and DESCRIPTIONS-->
-            </ul>
-        </p>
-        <br>
-        <h4>
-            Project Description:
-        </h4>
-        
-        <p class="project_text">
-        
-        <!--ADD MORE COMPLETE PROJECT DESCRIPTION-->
-        
-        </p>
-        <br>
-        <h4>
-            Project Uses:
-        </h4>
-        
-        <p>
-            <ul class="list_text">
-                <li>PROJECT USE</li> <!--ADD APPLICABLE USES-->
-            </ul>
-        </p>
+                <h4>
+                    Project Description:
+                </h4>
+                
+                <p class="project_text">
+                
+                In order to better understand the changes in Black homeownership, PCRG authored a study to examine the changes of 
+                neighborhoods in Pittsburgh from 2010-2014 relative to 2015-2019 based on homeownership and other factors. Additionally, we compared the 
+                changes in Black homeownership at the county and MSA level to other similar counties and metro areas during that time period. 
+                This analysis primarily relied on American Community Survey (ACS) data and Home Mortgage Disclosure Act (HMDA) data.
+    
+                <br>
+                <br>
+    
+                We found that the region as a whole experienced <b>a loss of Black homeownership, particularly as housing prices increased</b> which resulted in nearly 
+                <b>75% of Black households</b> residing in Allegheny County lived in census tracts in <b>bottom 50th percentile of household income.</b>
+                
+                </p>
+                <br>
 
+            <h4>
+                Project Skills and Level of Difficulty:
+            </h4>
+            <p>
+                <ul class="list_text">
+                    <li>Data Cleaning:
+                        <div class="block">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        </div>
+                        <i>Created metric to establish similar counties/MSAs based on population demographics between understand changes in Black homeownership throughout the 2010s. Also calculated community disadvantage index based on similarly existing methodology.</i>
+                        <br>
+                        <br>
+                    </li>
+                    <li>Observational Analysis:
+                        <div class="block">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        </div>
+                        <i>Calculated homeownership rates and other figures using ACS 5-year estimate data, and calculated basic racial disparities in loan-level mortgage data.</i>
+                        <br>
+                        <br>
+
+                    </li>
+                    <li>Geospatial Analysis: 
+                        <div class="block">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                        </div>
+                        <i>Analysis mostly done at the census tract level, but little extra done in terms of preparing and visualizing data.</i>
+                        <br>
+                        <br>
+                    </li>
+                    <li>Data Visualization:
+                        <div class="block">                   
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star"></span>
+                        </div>
+                        <i>Included many different charts, maps, tables, and graphs created using Datawrapper to illustrate loan disparities and changes in community disadvantage within Allegheny County. </i>
+                        <br>
+                    </li>
+                </ul>
+            </p>
+            <br>
+
+            <h4>
+                Project Uses and Outcomes:
+            </h4>
+            
+            <p>
+                <ul class="list_text">
+                    <li>This report served as a methodology to begin analyzing gentrification and displacement through ACS and HMDA data, which informed later projects at PCRG.</li> <!--ADD APPLICABLE USES-->
+                    <li>Through this and future analysis, PCRG made the case to local mortgage lenders to create new and innovative mortgage products.</li>
+                </ul>
+            </p>
+
+            <br>
+            <br>
+        </div>
         <br>
-        <hr>
+        <br>
+        </div>
+        </div>
+        <br>
         <br>
         <p class="last_updated">
-            Last updated: September 22, 2023.
+            Last updated: September 25, 2023.
         </p>
     </body>
