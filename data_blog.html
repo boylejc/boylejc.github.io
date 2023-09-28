@@ -35,6 +35,78 @@
             <a class="cta" href="/contact.html"><button>Contact</button></a>
         </header>
 
+        <div class="new_content_block2"> <!--Alternate between content_block1 and content_block2 to distinguish posts...-->
+
+            <h2>Patents, Education, and the Innovation Economy</h2>
+            <h5>September 28, 2023</h5>
+        
+            <p class="list_text">
+                For today's data blog, I wanted to try to focus on an interesting dataset I found from the U.S. Patent Office's Patent Technology Monitoring Team (PTMT). 
+                The PTMT periodically releases data on patent activity throughout the country. 
+                This includes a breakdown of utility patents issued by counties, metro areas, and states. 
+                Although the smaller geographies haven't been updated since 2015, 
+                I still wanted to see if I could use this data to better understand the regional implication of patents and innovation. 
+                What I came up with was a simple metric called the innovation capacity score, which takes into account three variables:
+                <br>
+                <br>
+                - the total number of patents issued from 2000-2015 by county per capita;
+                <br>
+                - educational attainment of the county (2015)
+                <br>
+                - innovation jobs score (the mix of manufacturing, knowledge-work, and professional/scientific/technical service jobs as a share of the workforce, 2015).
+                <br>
+                <br>
+                I added the three components together, and mapped them along with the major colleges and universities in Virginia, 
+                using the Carnegie Classifications of Institutions of Higher Learning (R1, R2, Special Purpose Research, and Doctoral/Professional Universities [formerly R3]).
+                <br> 
+                <br>
+                <div class="center_tableau">
+                    <img src="/images//blog_posts/list-of-colleges.png" alt="" > 
+                </div>
+                <p class="list_text">
+                <br>
+                By doing so, we can start to quantify the advantage of having a major research institution has for a local economy.
+                <br> 
+                <br>
+                </p>
+                <div class="center_tableau">
+                    <img src="/images//blog_posts/ics_map.png" alt="" width="75%"> 
+                </div>
+                <br>
+                <p class="list_text">
+                The average innovation capacity score was 19.32, which using the Jenks Natural Breaks score above, places it at the bottom end of the “Moderate Innovation Capacity” level. For counties that are within 25 miles of Virginia’s major universities, the average score was 22.92 which is over 6 points higher than the average for counties not near major universities, at 16.32. Counties near major universities scored higher on every component of the index, relative to the average and to non-college located counties.
+                One caveat worth mentioning is that the methodology for placing counties near major universities leaves is based on the centroid of the county, and not the location of the county seat or most populated areas. It is compared to the address of the university’s main campus (and does not consider alternative campus locations such as Virginia Tech and the University of Virginia’s northern Virginia locations). 
+                <br>
+                <br>
+                Because of this decision, Loudoun County, the fourth most populated county at the time of the study (2015) and one of the richest counties in the United States is considered non-college located. However, if you take the county seat Leesburg as the point of comparison, Loudoun becomes a college-located county (nearest George Mason University). 70.8% of patents from 2000-2015 came from counties co-located near universities with the remaining 29.2% coming from the rest of the Commonwealth. If you include Loudoun as a co-locating county, only 10.0% of patents came from non-college located areas.
+                <br>
+                <br>
+            </p>
+            <div class="center_tableau">
+                <img src="/images//blog_posts/college-non-college.png" alt="" width="50%" style="margin-left: 10%"> 
+            </div>
+            <br>
+            <p class="list_text">
+                Similarly, you can breakdown the final Innovation Capacity Score by county size. I used the 75th percentile of population as the cutoff between large and small populace counties (above or below about 55,000 residents). While this closes the gap in terms of patents issued, it does not improve the gaps in educational attainment and innovative job availability. This makes some sense as there are colleges and universities located in small counties that produce patents (Virginia Tech in Montgomery County and the University of Virginia in Albemarle County to name a few). However, these areas are not necessarily keeping and retaining those graduates in the local job market – resulting in lower educational attainment and lower numbers of what we deemed innovative jobs.
+                <br>
+                <br>
+            </p>
+            <div class="center_tableau">
+                <img src="/images//blog_posts/small-large.png" alt="" width="50%" style="margin-left: 10%">  
+            </div>
+            <br>
+            <p class="list_text">           
+                This is a massive challenge in economic development, most easily summed up by the question: “Do people follow jobs, or do jobs follow people?" How do small counties, especially counties without major colleges and universities, grow and attract talent and companies? These are the kinds of decisions that aren’t easily solved, but hopefully we can use data to contemplate better solutions.
+                </p>
+                <br>
+                <br>
+            <br>
+            <br>
+            <h5>Tags: Economic Development Indicators</h5>
+            <br>
+        </div>
+
+
         <div class="new_content_block1"> <!--Alternate between content_block1 and content_block2 to distinguish posts...-->
 
             <h2>Greater Richmond Home Values Continue to outpace Income Growth</h2>
@@ -270,6 +342,6 @@
 
         <br><br>
         <p class="last_updated">
-            Last updated: September 25, 2023.
+            Last updated: September 28, 2023.
         </p>
     </body>
