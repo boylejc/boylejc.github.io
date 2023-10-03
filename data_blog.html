@@ -35,9 +35,91 @@
             <a class="cta" href="/contact.html"><button>Contact</button></a>
         </header>
 
+        <div class="new_content_block1">
+            <h2>The Role of Patents on Regional Economies Across the United States</h2>
+            <h5>October 3, 2023</h5>
+        
+            <p class="list_text">
+                Last week I took a lot at the “innovation capacity” of counties in Virginia by examining their share of knowledge-work and manufacturing jobs, 
+                the percentage of residents over the age of 25 with a bachelor’s degree or higher, and the number of patents issued per capita (from 2000 to 2015). 
+                What I found was that there was (unsurprisingly) a moderately strong correlation between a county’s innovation capacity score and 
+                its relative proximity to a major research university (an R1 or R2 research university on the Carnegie Classification scale).
+                <br>
+                <br>
+                Today, I expanded that methodology to look at not just Virginia counties, but to all metropolitan statistical areas (MSAs) in the United States – 
+                with some minor adjustments to the methodology. The results still resemble what you might expect; Silicon Valley dominates the top of the list 
+                (with San Jose-Sunnyvale-Santa Clara #1 overall and San Francisco-Oakland-Berkeley #5), with other strong showings in research dominate metros 
+                (Boston #9, Durham-Chapel Hill #10, Raleigh-Cary #12, Seattle #13).
+                <br>
+                <br>
+            </p>
+            <div class="center_tableau">
+                <img src="/images/blog_posts/ics_msa_map.png" alt="" style="width: 75%">
+            </div>
+                <br>
+                <br>
+
+            <p class="list_text">
+                There are three main factors that determine an MSAs overall success in these metrics:
+                <ul class="list_text" style="padding-left: 24px">
+                    <li>In the top 100 largest metros (responsible for about 85% of patents issued from 2000-2015)</li>
+                    <li>Co-located near a major-research institution (R1/R2 university, AAU member university, or Land-Grant university)</li>
+                    <li>Co-located in “innovative” employment sectors, such as general manufacturing, software development, telecommunications, biomedical research and manufacturing, or other advanced manufacturing.</li>
+                </ul>
+            </p>
+            <br>
+            <br>
+            <div class="center_tableau">
+            <iframe title="Metropolitan Statistical Area Innovation Capacity" aria-label="Table" id="datawrapper-chart-dmYr6" src="https://datawrapper.dwcdn.net/dmYr6/1/" scrolling="no" frameborder="0" style="border: none;" width="958" height="730" data-external="1"></iframe>
+            </div>
+            <br>
+            <br>
+            
+            
+            <h5>    Methodology Changes </h5>
+
+            <p class="list_text">
+                One of the major changes between this and the original analysis was in calculating the innovative jobs score for each MSA. While I still used the same NAICS codes to categorize employment, I took the average of each sector over the years of 2014-2016. This change was made because of the high number of (D) depressed employment figures in the 2015 MSA dataset. Even with this change, about 30% of metro areas had at least one NAICS code that was a depressed value. While this was usually in smaller MSAs, it did impact some larger ones including Salt Lake City, San Jose, and Washington DC.
+                <br>
+                <br>
+                My solution was to impute a value based on the min, max, and mean values in each NAICS category. However, if this were a professional project and not for a blog, I would also to try reaggregate some of those values using more specific NAICS data from the Bureau of Labor Statistics Quarterly Census of Employment and Wages instead of relying solely on the Bureau of Economic Analysis’s Personal Income and Employment by County and Metropolitan Area dataset. I only included metro areas that were missing 2 or fewer NAICS employment categories, even after imputing data.
+                <br>
+                <br>
+                Another issue I ran into was the changing nature of MSA codes and definitions. To calculate the patents issued per capita and the educational attainment rate, I used American Community Survey data. I used 5-year estimates from 2015, as this was the last year of patent data available at the MSA level. However, there were some metro areas that changed from 2015 to 2023, which caused me to drop some areas from the overall analysis. An example of this is the Poughkeepsie-Newburgh-Middletown, NY MSA which was an MSA except for the years of 2013-2018, when it was considered part of the New York City-Newark-Jersey City, NY-NJ MSA. 
+                <br>
+                <br>
+                Additionally, I restricted the final output to only including metro areas with a population of 300,000 or more. While this removes some of the smaller/rural/university focused MSAs, it provides a more accurate look at the regional economic drivers. It is worth noting that on a per capita basis, without restricting for population, Corvallis, OR and Burlington, VT are two of the top five innovation capacity metro areas.
+            
+            </p>
+            <br>
+                    <h5>Key Takeaways</h5>
+            
+            <p class="list_text">
+                Viewing the map as a whole you start to see alignment with what we know about existing regional economies: moderate to strong capacity for jobs and innovation in the ACELA corridor from Washington DC to Boston, moderate capacity throughout the industrial Midwest, deep challenges in the south (with the exceptions of the Research Triangle and Charlotte in North Carolina; Atlanta, GA; and Austin, TX, and existing tech hubs in the Pacific Northwest and Silicon Valley. The big difference is the sources of high innovation capacity and competitiveness from smaller MSAs and other MSAs not traditionally thought of as “innovative” at the national level: Boulder, CO; Boise, ID; and Manchester-Nashua, NH to name a few.
+                <br>
+                <br>
+                This matters because a simple regression on the median household income of an MSA in 2015, relative to its population and each component of the innovation capacity score shows that larger MSAs with higher innovation capacities have a statistically significant higher median household income.    
+            </p>
+            <br>
+            <div class="center_tableau">
+                <img src="images/blog_posts/regression1.png" alt="" style="width: 75%">
+            </div>
+            <br>
+            <br>
+            <p class="list_text">
+                Only the jobs score was not a statistically significant predictor of median household income, which is not necessarily surprising given that that data had significant challenges in its reliability. While this isn’t the most robust analysis, nor something I would be submitting to the NBER – I do think it makes a strong case to as to the importance of investing in higher education, specifically regarding research and development, as well as high impact employment sectors. However, just because there is evidence that these factors positively impact economic development does not mean that every MSA is situated to become the next Silicon Valley. To do so would ignore the many historical reasons (natural resources, infrastructure, etc.) that these institutions and industries settled into their respective geographies in the first place. 
+            </p>
+            <br>
+            <br>
+            <h5>Tags: Economic Development Indicators</h5>
+            <br>
+
+        </div>
+
+
         <div class="new_content_block2"> <!--Alternate between content_block1 and content_block2 to distinguish posts...-->
 
-            <h2>Patents, Education, and the Innovation Economy</h2>
+            <h2>Patents, Education, and the <br>Innovation Economy of Virginia</h2>
             <h5>September 28, 2023</h5>
         
             <p class="list_text">
