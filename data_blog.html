@@ -36,8 +36,105 @@
         </header>
 
         <section>
+            <div class="new_content_block2"> <!--Alternate between content_block1 and content_block2 to distinguish posts...-->
+    
+                <h2>Understanding Virginia Tech Football:<br> A Look at Advanced Stats</h2>
+                <br>
+                <h5>October 12, 2023</h5>
+            
+                <p class="list_text">
+                    This week I’ve taken to dissecting the 2023 Virginia Tech football season. 
+                    Year two of the Brent Pry era has gotten off to a rocky start at 2-4, with seemingly little improvement over last year's disappointing 3-8 record. 
+                    Like most fans, I assumed a rebuild was in order following the end of the Justin Fuente era. <br> Yet I’m not sure this is what I would have predicted to start the season so far. Sure, Virginia Tech has struggled with injuries at key positions (quarterback, wide receiver, safety) and is missing key depth at others (linebacker, offensive line). But with a relatively light schedule against two G5 schools, two non-powerhouse Big 10 schools, and a conference schedule with only two tough games (@ #5 Florida State and @ #14 Louisville), this season felt like an opportunity to make a leap towards relevance. So let’s break down what is really happening behind the stats at the halfway point of the season.
+                    <br>
+                    <br>
+                    *Stats are calculated using the CFBD plays dataset and API. I’ve started to notice there are some weird bits to it because it pulls from ESPN which isn’t always accurate. It isn’t always entirely consistent in its descriptions but on the whole does a really good job of getting data out quickly and efficiently. 
+                    <br>
+                    <br>
+                </p>
+                <h5>An Above Average Defense (with One MASSIVE Problem)</h5>
+                <p class="list_text">
+                    On its face, Virginia Tech presents an above average FBS defense this season. Through their first six games, Virginia Tech ranks 37th in FBS defensive success rate. A play is successful if it:
+                    <ul class="list_text" style="padding-left: 24px">
+                        <li>Gains 50% or more yards towards a first down on first down;</li>
+                        <li>Gains 70% or more yards toward a first down on second down;</li>
+                        <li>Converts a first down on third or fourth down.</li>
+                </ul>
+                </p>
+                <div class="center_tableau">
+                    <img src="/images/blog_posts/newplot.png" alt="" style="width: 75%">
+                </div>
+
+                <p class="list_text">
+                The FBS average success rate is 41.0%, while Virginia Tech allows success on 38.3% of plays. 
+                Similarly, an explosive play is a pass that goes for 20 or more yards, or a run that goes for 10 or more yards. 
+                The FBS average explosive rate is 11.6%, while Virginia Tech allows explosive plays on 11.2% of plays. Virginia Tech’s problem is not in explosive plays, 
+                but mega-explosive, absolutely-backbreaking plays of 50 or more yards. Virginia Tech is tied for second in the most plays over 50 or more yards with 7 such plays (alongside Marshall, South Florida, Arkansas State, and Central Michigan), trailing only UMass at 9. Weirdly enough, if you look at just plays of 30 or more yards, Virginia Tech is much closer to the average allowing only 11 total (tied for 67th overall with schools that range from Charlotte and App State, to Texas, Florida, and Kansas).
+                <br>
+                <br>
+                More concerning is that this damage is being down almost exclusively on the ground, where 5 of the 7 50+ yarders have been rushing attempts. Virginia Tech’s rushing defense allows over 220 yards per game and over 5 yards per carry – among the worst in P5 football.
+                </p>
+                <br>
+                <br>
+                <h5>A Struggling Offense Shows Signs of Life</h5>
+                <p class="list_text">
+                Virginia Tech’s offense struggled mightily under Offensive Coordinator Tyler Bowen and Quarterback Grant Wells in year one, leading the school to pick up big time transfers at QB (4* HS Kyron Drones, Baylor), WR (4* transfer Ali Jennings, Old Dominion; 3* transfer Jaylin Lane, Middle Tennessee; 3* transfer Da’Quan Felton, Norfolk State) and RB (3* transfer Bhayshul Tuten, NC A&T). While this leaned heavily on passing options, it betrayed many of Coach Pry’s insistence on becoming a much stronger rushing team after being too “easy to get a bead on” last season and lacking “creativity.” With Grant Wells going down before the half in Week 2, Virginia Tech’s grab bag offense faltered once again. 
+                <br>
+                <br>
+                The new passing game was out the window with a QB who failed to break a completion percentage over 50% in high school in Kyron Drones, and the running game needed considerable work after nearly with negative rushing yards against Purdue. As a result, on the season Virginia Tech ranks 98th in success rate (39.8 % relative to the FBS average of 43.4%), and 88th in explosive rate (11.6% relative to the FBS average of 12.6%).
+                </p>
+                <br>
+                <div class="center_tableau">
+                    <img src="/images/blog_posts/offense_plot_vt_total.png" alt="" style="width: 75%">
+                </div>
+                <p class="list_text">
+                    However, in week 4 against Marshall, the Virginia Tech offense started to show signs of life in the rushing game – averaging 6.1 yards per carry (184 yards on 30 attempts). Since becoming a more run-oriented offense Virginia Tech has improved their success rate to 42.0% (still below average) and their explosive rate to 12.9% (slightly above average).
+                </p>
+                <br>
+                <div class="center_tableau">
+                    <img src="/images/blog_posts/offense_plot_vt_4_6.png" alt="" style="width: 75%">
+                </div>
+                <br>
+                <h5>Uncomplimentary Football</h5>
+                <br>
+                <p class="list_text">
+                Despite improvements on offense, and a defense that can be average on a down-to-down basis, Virginia Tech is rarely winning on both sides of the ball at the same time. Only one game this season (the 38-21 win over Pittsburgh) has Virginia Team won in EPA (expected points added) per play. A frequent critique of the Brent Pry era is that the team only plays one good quarter of football per game – something that Pry has often talked about in his press conferences regarding “complimentary football.” That still remains to be a major issue for this team.
+                <br>
+                <br>
+                Virginia Tech is averaging .111 EPA per play on offense and .201 EPA per play allowed on defense. If you compare EPA per play in each quarter, you find that Virginia Tech rarely wins both at the same or wins more than one quarter of a game. In this case we only win on average one quarter of a game (6 out of 24 total quarters). More worryingly, we only have one game this season where the offense has performed better than average for 3 quarters (Pitt) and one game where the defense has played better than average for 3 quarters (Marshall).
+                </p>
+                <br>
+                <div class="center_tableau">
+                    <img src="/images/blog_posts/kS1wm-virginia-tech-epa-per-quarter-2023 (1).png" alt="" style="width: 75%">
+                </div>
+                <p class="list_text">
+                    This matters because Virginia Tech still has a chance to finish strong. According to most metrics, the toughest part of Virginia Tech’s season is behind us. According to ESPN’s football playoff index, Virginia Tech (72nd in FPI/76th in SP+) has had the 35th hardest strength of schedule – but only the 72nd most difficult remaining schedule with games against:
+                    <ul class="list_text" style="padding-left: 24px">
+                        <li>Wake Forest (60th in FPI/51st SP+)</li>
+                        <li>Syracuse (28th in FPI/38th SP+)</li>
+                        <li>At #14 Louisville (21st in FPI/20th SP+)</li>
+                        <li>At Boston College (90th in FPI/90th SP+)</li>
+                        <li>NC State University (51st in FPI/47th SP+)</li>
+                        <li>At Virginia (95th in FPI/86th SP+)</li>
+                    </ul>
+
+                <p class="list_text">
+                    Because of this, Virginia Tech still has a chance at respectability (if not outright bowl eligibility) if they are able to continuing improving on offense, and can turn some of the 50 yard plays into merely 30 yard plays. But it is going to take considerable effort from the players, and a level of coaching that we haven't seen yet from this staff.
+                    
+                </p>
+                <br>
+                <br>
+                <h5>Tags: </h5>
+                <br>
+            </div>
+        </section>
+    
+
+
+        <section>
         <div class="new_content_block1">
             <h2>The Role of Patents on Regional Economies Across the United States</h2>
+            <br>
             <h5>October 3, 2023</h5>
         
             <p class="list_text">
@@ -122,6 +219,7 @@
         <div class="new_content_block2"> <!--Alternate between content_block1 and content_block2 to distinguish posts...-->
 
             <h2>Patents, Education, and the <br>Innovation Economy of Virginia</h2>
+            <br>
             <h5>September 28, 2023</h5>
         
             <p class="list_text">
@@ -195,6 +293,7 @@
         <div class="new_content_block1"> <!--Alternate between content_block1 and content_block2 to distinguish posts...-->
 
             <h2>Greater Richmond Home Values Continue to outpace Income Growth</h2>
+            <br>
             <h5>September 2023</h5>
         
             <p class="list_text">
@@ -222,6 +321,7 @@
         <div class="new_content_block2"> <!--Alternate between content_block1 and content_block2 to distinguish posts...-->
 
             <h2>Community Disadvantage Index<br>Richmond, VA (2021 5-yr Estimates)</h2>
+            <br>
             <h5>September 2023</h5>
         
             <p class="list_text">
@@ -258,6 +358,7 @@
         <div class="new_content_block1"> <!--Alternate between content_block1 and content_block2 to distinguish posts...-->
 
             <h2>Where Does Pittsburgh Public Transit Go From Here?</h2>
+            <br>
             <h5>August 22, 2023</h5>
       
             <p class="list_text">
@@ -332,6 +433,7 @@
         <div class="new_content_block2"> <!--Alternate between content_block1 and content_block2 to distinguish posts...-->
 
             <h2>Residential Area Employment Statistics by Allegheny County Neighborhood/Municipality</h2>
+            <br>
             <h5>August 2023</h5>
         
             <p class="list_text">
@@ -377,10 +479,12 @@
         </div>
     </section>
 
+   
     <section>
         <div class="new_content_block1">
 
         <h2>Examining Housing Affordability in Pittsburgh</h2>
+        <br>
         <h5>August 2023</h5>
 
         <p class="list_text">
@@ -407,9 +511,13 @@
         <br>
         </div>
 
+    </section>
+
+    <section>
         <div class="new_content_block2"> <!--Alternate between content_block1 and content_block2 to distinguish posts...-->
 
             <h2>A Response to the <br>Pittsburgh Post-Gazette</h2>
+            <br>
             <h5>February 2023</h5>
         
             <p class="list_text">
